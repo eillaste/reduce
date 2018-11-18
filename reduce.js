@@ -10,3 +10,11 @@ var word = letters.reduce(
 ''); // <-- notice this empty string argument: it's the initial value
 
 console.log(word) // => "redux"
+
+
+
+//gist
+//redux:
+(state, action) => newState
+//remember:
+(accumulatedValue, nextItem) => nextAccumulatedValue
